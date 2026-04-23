@@ -185,7 +185,7 @@ a {
     gap: 5rem;
 }
 
-.hero-img {
+.profile-img-container.hero-img {
     width: 380px;
     height: 380px;
     flex-shrink: 0;
@@ -587,7 +587,7 @@ a {
         justify-content: center;
     }
     
-    .hero-img {
+    .profile-img-container.hero-img {
         width: 250px;
         height: 250px;
     }
