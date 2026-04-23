@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martín Franco | Portfolio & CV</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Efecto fondo animado -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <nav class="navbar glass">
+        <a href="#home" class="logo">MF<span>.</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="subtitle">Hola, soy</p>
+                    <h1 class="title">Martín Franco</h1>
+                    <h2><span class="typewriter"></span><span class="cursor">|</span></h2>
+                    <p class="description">Desarrollador enfocado en crear soluciones tecnológicas eficientes. Combino mi formación en Ingeniería Informática y Desarrollo de Videojuegos para dar vida a ideas creativas.</p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+                        <a href="#contact" class="btn btn-secondary">Contactar</a>
+                        <!-- Se puede añadir un enlace de descarga real al pdf si lo deseas subiendo el pdf -->
+                        <a href="Martín Franco (5).pdf" download class="btn btn-outline"><i class="fas fa-download"></i> CV PDF</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About / Perfil -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">Sobre Mí <span>_</span></h2>
+                <div class="about-grid">
+                    <div class="about-text glass card">
+                        <p>Soy una persona trabajadora, proactiva, con excelentes habilidades en resolución de problemas y trabajo en equipo. Busco aportar valor creando software innovador. Además de mi pasión por la programación, tengo conocimiento general en otras áreas de cuidado que reflejan mi curiosidad constante.</p>
+                        <p><strong>Idiomas:</strong> Castellano (Nativo), Valenciano (Nativo), Inglés (Medio).</p>
+                    </div>
+                    <div class="skills glass card">
+                        <h3>Habilidades Técnicas</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                            <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+                            <span class="skill-tag">C / C++</span>
+                            <span class="skill-tag"><i class="fas fa-server"></i> FastAPI</span>
+                            <span class="skill-tag"><i class="fas fa-database"></i> SQLite</span>
+                            <span class="skill-tag"><i class="fab fa-html5"></i> HTML</span>
+                            <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS</span>
+                            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        </div>
+                        <h3 style="margin-top:20px;">Soft Skills</h3>
+                        <div class="skills-list outline">
+                            <span class="skill-tag">Trabajo bajo presión</span>
+                            <span class="skill-tag">Resolución en vivo</span>
+                            <span class="skill-tag">Liderazgo (UJI)</span>
+                            <span class="skill-tag">Trabajo en Equipo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Trayectoria <span>_</span></h2>
+                
+                <div class="timeline-container">
+                    <div class="timeline-column">
+                        <h3>Educación</h3>
+                        <div class="timeline-item glass">
+                            <div class="timeline-dot"></div>
+                            <span class="date">2022 - Actualidad</span>
+                            <h4>Grado en Diseño y Desarrollo de Videojuegos</h4>
+                            <p>Universitat Jaume I (Castellón de la Plana)</p>
+                        </div>
+                        <div class="timeline-item glass">
+                            <div class="timeline-dot"></div>
+                            <span class="date">2017 - 2022</span>
+                            <h4>Ingeniería Informática</h4>
+                            <p>Universitat Jaume I (Castellón de la Plana)</p>
+                        </div>
+                        <div class="timeline-item glass">
+                            <div class="timeline-dot"></div>
+                            <span class="date">2015 - 2017</span>
+                            <h4>Bachillerato Científico</h4>
+                            <p>IES Veles e Vents (Grao de Gandia)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-column">
+                        <h3>Experiencia</h3>
+                        <div class="timeline-item glass">
+                            <div class="timeline-dot"></div>
+                            <span class="date">02/2026 - Actualidad</span>
+                            <h4>Educador de Apoyo</h4>
+                            <p>Programa Pisos Solidarios UJI. Apoyo escolar y dinámicas de grupo integradoras en entorno educativo.</p>
+                        </div>
+                        <div class="timeline-item glass">
+                            <div class="timeline-dot"></div>
+                            <span class="date">10/2025 - Actualidad</span>
+                            <h4>Repartidor de Amazon</h4>
+                            <p>Instapack (Onda). Trabajo bajo presión, usando apps logísticas y resolviendo problemas en tiempo real.</p>
+                        </div>
+                        <div class="timeline-item glass">
+                            <div class="timeline-dot"></div>
+                            <span class="date">2022 - 2026</span>
+                            <h4>Presidente</h4>
+                            <p>Club de Juegos de Mesa de la UJI. Organización de eventos y presupuestos. Liderazgo de equipo.</p>
+                        </div>
+                        <div class="timeline-item glass">
+                            <div class="timeline-dot"></div>
+                            <span class="date">2015 - 2024 (Veranos)</span>
+                            <h4>Encargado de Tienda</h4>
+                            <p>Piscolabis By Gabriela. Gestión integral, control TPV e inventario, equipo de 3 personas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section glass-bg">
+            <div class="container">
+                <h2 class="section-title">Proyectos Destacados <span>_</span></h2>
+                <div class="projects-grid">
+                    
+                    <!-- Proyecto 1 -->
+                    <div class="project-card glass">
+                        <div class="project-content">
+                            <h3><i class="fas fa-server"></i> Anime Tracker API (AnimeNexus.es)</h3>
+                            <p>Desarrollo completo de la lógica de servidor en Python con FastAPI. Modelado de datos rígido, SQLite, JWT y hashes Bcrypt.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>FastAPI</span>
+                                <span>SQLite</span>
+                                <span>JWT</span>
+                            </div>
+                            <!-- <a href="#" class="project-link">Ver Proyecto <i class="fas fa-arrow-right"></i></a> -->
+                        </div>
+                    </div>
+                    
+                    <!-- Proyecto 2 -->
+                    <div class="project-card glass">
+                        <div class="project-content">
+                            <h3><i class="fas fa-robot"></i> Lun.Ai (Chatbot)</h3>
+                            <p>Clientes y sistemas automatizados de rol local para el proyecto personal de Chatbot Lun.Ai.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Inteligencia Artificial</span>
+                                <span>API Integration</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 3 -->
+                    <div class="project-card glass">
+                        <div class="project-content">
+                            <h3><i class="fas fa-gamepad"></i> Desarrollo Videojuegos UJI</h3>
+                            <p>Creación y programación de proyectos de juegos como parte del plan de estudios.</p>
+                            <div class="project-tech">
+                                <span>Unity / C++</span>
+                                <span>Game Design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-card glass">
+                    <h2><i class="fas fa-paper-plane"></i> Contacto</h2>
+                    <p>Si te interesa mi perfil para un proyecto, oferta de empleo o quieres conocerme más, no dudes en contactarme.</p>
+                    
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:mmafra66@gmail.com">mmafra66@gmail.com</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+34646135283">+34 646 135 283</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/martínrft" target="_blank">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Diseñado y programado por Martín Franco &copy; 2026</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
