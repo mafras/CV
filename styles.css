@@ -573,6 +573,11 @@ a {
         grid-template-columns: 1fr;
     }
     
+    .hero {
+        padding-top: 120px;
+        padding-bottom: 40px;
+    }
+    
     .hero-content {
         flex-direction: column-reverse;
         text-align: center;
