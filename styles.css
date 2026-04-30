@@ -503,6 +503,28 @@ a {
     border-radius: 4px;
 }
 
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+    color: var(--accent-color);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.project-link i {
+    transition: transform 0.3s ease;
+}
+
+.project-link:hover {
+    color: #fff;
+}
+
+.project-link:hover i {
+    transform: translateX(5px);
+}
+
 /* Contact */
 .contact-card {
     max-width: 600px;
